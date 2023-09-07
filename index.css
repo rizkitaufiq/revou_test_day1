@@ -4,16 +4,19 @@ button
     background-color: floralwhite;
 }
 
+#display
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 #ac
 {
     background-color: #f51515;
-    width: 100%;
 }
 
 #c
 {
     background-color: blue;
-    width: 100%;
 }
 
 #x

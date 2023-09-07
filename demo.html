@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #carClass
+        {
+            color: red;
+            background-color: gold;
+            width: 300px;
+            border: 10px solid black;
+            padding-left: 50px;
+            
+            /* menyesuaikan elemen */
+            box-sizing: border-box;
+        }
+
+        .carID
+        {
+            color: blue;
+            background-color: gold;
+            width: 300px;
+            border: 10px solid black;
+            padding-left: 150px;
+
+            /* menyesuaikan elemen */
+            box-sizing: border-box;
+        }
+
+        /* flexbox/struktur seperti kontener (referensi css-tricks, flexbox frogy) */
+        .demoFlexBox
+        {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            justify-content: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="demoFlexBox">
+        <h4>Mazda</h4>
+        <h4>Toyota</h4>
+        <h4>Suzuki</h4>
+        <h4>Porsche</h4>
+        <h4>Ferari</h4>
+    </div>
+
+    <h1 id="carClass">Avanza</h1>
+    <h1 class="carID">Inova</h1>
+    <h1 class="carID">Alphard</h1>
+    
+</body>
+</html>
